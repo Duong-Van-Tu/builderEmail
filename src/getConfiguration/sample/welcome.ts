@@ -14,9 +14,6 @@ const WELCOME: TEditorConfiguration = {
         'block-1709571234315',
         'block-1709571247550',
         'block-1709571258507',
-        'block-1709571281151',
-        'block-1709571302968',
-        'block-1709571282795',
       ],
     },
   },
@@ -109,62 +106,6 @@ const WELCOME: TEditorConfiguration = {
         linkHref:
           'https://www.youtube.com/watch?v=NaQnFcDKFiM&list=RDNaQnFcDKFiM&start_radio=1',
         contentAlignment: 'middle',
-      },
-    },
-  },
-  'block-1709571281151': {
-    type: 'Text',
-    data: {
-      style: {
-        fontWeight: 'normal',
-        padding: {
-          top: 16,
-          bottom: 16,
-          right: 24,
-          left: 24,
-        },
-      },
-      props: {
-        text: 'If you ever need help, just reply to this email and one of us will get back to you shortly. We’re here to help.',
-      },
-    },
-  },
-  'block-1709571282795': {
-    type: 'Image',
-    data: {
-      style: {
-        padding: {
-          top: 16,
-          bottom: 40,
-          right: 24,
-          left: 24,
-        },
-      },
-      props: {
-        url: 'https://i.ytimg.com/vi/NaQnFcDKFiM/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAkRd73gqJ_Jtytt1J23I1zxtqQaA',
-        alt: 'Illustration',
-        linkHref: null,
-        contentAlignment: 'middle',
-      },
-    },
-  },
-  'block-1709571302968': {
-    type: 'Button',
-    data: {
-      style: {
-        fontSize: 14,
-        padding: {
-          top: 16,
-          bottom: 24,
-          right: 24,
-          left: 24,
-        },
-      },
-      props: {
-        buttonBackgroundColor: '#0079cc',
-        buttonStyle: 'rectangle',
-        text: 'Open dashboard',
-        url: 'https://www.usewaypoint.com',
       },
     },
   },
